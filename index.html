@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="full">
+	<div id="top-container">
+		<div id="title-container">
+			<h1 id="title">Where does your food come from?</h1>
+			<p>Crop percentages through time</p>
+		</div>
+		<h2 id="title"><u><span id="titleCrop">Apples</span></u> in <u><span id="titlePlace">the World</span></u> in <u><span id="titleYear">1961</span></u></h2>
+		<div id="map-container">
+		</div>
+	</div>
+
+	<div id="crop-info-container">
+		<!-- <div id="crop-dropdown"></div> -->
+		<div id="crop-selector">
+			<div class="image_wrap">
+				<img src="images/apples.jpeg" alt="apples">
+				<button id = "apples" class="image_description" value="Apples">Apples</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/avocados.jpg" alt="avocados">
+				<button id = "avocados" class="image_description" value="Avocados">Avocados</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/bananas.jpg" alt="bananas">
+				<button id = "bananas" class="image_description" value="Bananas">Bananas</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/barley.jpg" alt="barley">
+				<button id = "barley" class="image_description" value="Barley">Barley</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/cabbages.jpg" alt="cabbages">
+				<button id = "cabbages" class="image_description" value="Cabbages and other brassicas">Cabbages</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/dates.jpg" alt="dates">
+				<button id = "dates" class="image_description" value="Dates">Dates</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/grapes.jpg" alt="grapes">
+				<button id = "grapes" class="image_description" value="Grapes">Grapes</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/mangoes.jpg" alt="mangoes">
+				<button id = "mangoes" class="image_description" value="Mangoes, mangosteens, guavas">Mangoes</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/maize.jpg" alt="maize">
+				<button id = "maize" class="image_description" value="Maize">Maize</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/millet.jpg" alt="millet">
+				<button id = "millet" class="image_description" value="Millet">Millet</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/onions.jpg" alt="onions">
+				<button id = "onions" class="image_description" value="Onions, dry">Onions</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/potatoes.jpeg" alt="potatoes">
+				<button id = "potatoes" class="image_description" value="Potatoes">Potatoes</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/quinoa.jpg" alt="quinoa">
+				<button id = "quinoa" class="image_description" value="Quinoa">Quinoa</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/rice.jpg" alt="rice">
+				<button id = "rice" class="image_description" value="Rice, paddy">Rice</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/rootvegetables.jpg" alt="rootvegetables">
+				<button id = "rootvegetables" class="image_description" value="Roots and Tubers,Total">Root Vegetables</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/rye.jpeg" alt="rye">
+				<button id = "rye" class="image_description" value="Rye">Rye</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/sorghum.jpg" alt="sorghum">
+				<button id = "sorghum" class="image_description" value="Sorghum">Sorghum</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/sugarcane.jpg" alt="sugarcane">
+				<button id = "sugarcane" class="image_description" value="Sugar cane">Sugar Cane</button>
+			</div>
+
+			<div class="image_wrap">
+				<img src="images/wheat.jpg" alt="wheat">
+				<button id = "wheat" class="image_description" value="Wheat">Wheat</button>
+			</div>
+
+		</div>
+		<h4 ><span id="topProducts"></span></h4>
+
+	</div>
+
+	</div>
+
+	<div id="bottom-container">
+		<div id="slider-container"></div>
+		<div id="button-container"></div>
+
+	</div>
+
+<script src="//d3js.org/d3.v5.min.js"></script>
+<script src="//d3js.org/topojson.v3.min.js"></script>
+<script type="text/javascript" src="./basics.js"></script>
+<script type="text/javascript" src="./map.js"></script>
+<script type="text/javascript" src="./slider.js"></script>
+<script type="text/javascript" src="./cropSelector.js"></script>
+
+
+</body>
+</html>

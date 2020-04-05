@@ -1,0 +1,19 @@
+Our group project uses data available on http://www.earthstat.org/ to build visualization for this assignment. This dataset had compelling evidence of complexity and the ability to generate narrative stories. Further, it had both temporal and spatial aspects to analyze changes in distribution of various crops over a period of time. While we tried exploring most dimensions of dataset but in doing so we focussed our work on answering the following questions: 
+
+What is the most popular crop in every country and the amt?
+How does the global distribution of crops vary over time?
+Can we correlate global events with changes in crop distribution?
+
+To best answer all the questions we use a single frame interactivity for a user led exploratory data analysis using visualization elements embedded with interactivity and implicit messaging.  However, in doing so we side step the cognitive and emotional experience of the reader. 
+
+We adopted a multi-messaging narrative approach in which we have provided for visual selection horizontal scroll panel on top right to select data of vegetable/fruit that we want to see on the map and we also provide for a timeline slider bar at the bottom. This timeline scroll bar indicates the length of the visualization and provides the user with a mechanism to navigate between slides. In each display we use color scale to view the comparative analysis of total crop production in a country with respect to each other. We have added annotations to state the selected crop production of the country and the user can access this annotation by hovering mouse over the country of choice in the map. 
+
+Further, we have followed the Drill-Down Story visualization structure in which users can access details-on-demand while scanning through the world map. The user can click on any country and access in detail numbers of all the crops. We have embedded a tacit tutorial by visually highlighting each country as the user moves the mouse over the map. This highlighting nudges users to click on any country and access the details and while doing so the map zooms in on the country in focus.  
+
+Lastly we have tried to also include the martini glass structure in which we allow the user to explore the dataset based on interactive elements that we have provided and at the very bottom of the visualization we provide for “Go through history” button  to provide for a story narrative that we want to present to the user. 
+
+Further we wish to continue our work on this visualization and explore visualizations that answer the questions below: 
+What areas yield the most crop? Why is this the case?
+Which area produces the most greenhouse gas and why?
+Does harvest yield have an effect on water depletion?
+Why do yield gaps and exist and how can we push for smaller yield gaps?
